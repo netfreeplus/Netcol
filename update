@@ -1,0 +1,82 @@
+ {
+    "Version": "1.0.2",
+    "ReleaseNotes": "¡Nueva actualización disponible!🧩 \nESTÁ PROHIBIDO EL INICIO DE SESIÓN MÚLTIPLE. \n MANTÉN LA APLICACIÓN SIEMPRE ACTUALIZADA 🏆\nusted está conectado y no le funciona correctamente, comuníquese con servicio técnico. ⚙️\n 😎¡DISFRUTA!😎",
+    "Sms": "https://raw.githubusercontent.com/netfreeplus/Netcol/main/sms",
+    "UrlUpdate": "https://raw.githubusercontent.com/netfreeplus/Netcol/main/update",
+    "EmailFeedback": "",
+    "UrlContato": "",
+    "UrlTermos": "",
+    "CheckUser": "true",
+    "Udp": [
+        {
+      "Porta": "7100"
+    },
+    {
+      "Porta": "7200"
+    },
+    {
+      "Porta": "7300"
+    },
+    {
+      "Porta": "7400"
+    },
+    {
+      "Porta": "7500"
+        }
+    ],
+    "Servers": [
+        {
+            "Name": "SERVIDOR 1",
+            "TYPE": "premium",
+            "FLAG": "br.png",
+            "ServerIP": "45.58.36.79",
+            "CheckUser": "http://45.58.36.79:5454/checkUser",
+            "ServerPort": "22",
+            "SSLPort": "443",
+            "USER": "",
+            "PASS": ""
+        }
+    ],
+    "Networks": [
+        {
+      "Name": "SELECCIONA TU OPERADOR", 
+      "FLAG": "",
+      "Payload": "",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Ssl"
+   },
+    {
+      "Name":  "⚠️VERSIÓN 1.0.0⚠️",
+      "FLAG": "",
+      "Payload": "",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Ssl"
+   },
+    {
+      "Name": "❤️CLARO REDES🇨🇴",
+      "FLAG": "claro",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [host][crlf][crlf]CF-RAY / HTTP/1.1[crlf]Host: f.cerebrocol.com[crlf]Upgrade: websocket[crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "ekr.zdassets.com",
+      "ProxyIP": "ekr.zdassets.com",
+      "ProxyPort": "80",
+      "Info": "Direct"
+   },
+    {
+      "Name": "❤️MOVISTAR REDES🇨🇴",
+      "FLAG": "ic_tim",
+      "Payload": "",
+      "SNI": "whatsapp.net",
+      "TlsIP": "45.58.36.79",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Ssl"
+   }
+  ]
+}
