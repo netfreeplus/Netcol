@@ -1,6 +1,6 @@
 {
-    "Version": "1.0.3",
-    "ReleaseNotes": "¡Nueva actualización disponible!🧩\n❌1.0.2\n✅1.0.3\n\n🔥Novedades🔥\n\n 🔴Claro Waze 2 versiones\n⚪FLASHMOBILE Telegram\n🔵Movistar WhatsApp\n🔵Movistar Bug\n🔵⚪Tigo V1, V2, V3, V4, V5\n🟣Wom Spotify\n\nMANTÉN LA APLICACIÓN SIEMPRE ACTUALIZADA PARA DISFRUTAR DE LOS PRÓXIMOS SERVICIOS 🏆\nSi usted está conectado y no le funciona correctamente, comuníquese con vendedor. ⚙️\n 😎¡DISFRUTA!😎",
+    "Version": "1.0.4",
+    "ReleaseNotes": "¡Nueva actualización disponible!🧩\n❌1.0.3\n✅1.0.4\n\n🔥Novedades🔥\n\n 🔴Claro Waze 2 versiones\n⚪FLASHMOBILE Telegram\n🔵Movistar WhatsApp\n🔵Movistar Bug\n🔵⚪Tigo V1, V2, V3, V4, V5\n🟣Wom Spotify\n\nMANTÉN LA APLICACIÓN SIEMPRE ACTUALIZADA PARA DISFRUTAR DE LOS PRÓXIMOS SERVICIOS 🏆\nSi usted está conectado y no le funciona correctamente, comuníquese con vendedor. ⚙️\n 😎¡DISFRUTA!😎",
     "Sms": "https://raw.githubusercontent.com/netfreeplus/Netcol/main/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/netfreeplus/Netcol/main/update",
     "EmailFeedback": "",
@@ -17,7 +17,7 @@
             "Name": "SERVIDOR BR 6",
             "TYPE": "free",
             "FLAG": "br.png",
-            "ServerIP": "f.cerebrocol.com",
+            "ServerIP": "104.245.37.235",
             "CheckUser": "http://104.245.37.235:5454/checkUser",
             "ServerPort": "22",
             "SSLPort": "443",
@@ -37,7 +37,7 @@
       "Info": "Ssl"
    },
     {
-      "Name":  "⚠️VERSIÓN 1.0.3⚠️",
+      "Name":  "⚠️VERSIÓN 1.0.4⚠️",
       "FLAG": "",
       "Payload": "",
       "SNI": "",
@@ -49,7 +49,7 @@
     {
       "Name": "🔴CLARO WAZE🔴",
             "FLAG": "vivo",
-            "Payload": "GET /cdn-cgi/ HTTP/1.1[crlf]Host: ekr.zdassets.com[crlf][crlf]CF-RAY / HTTP/1.1[crlf]Host: f.cerebrocol.com[lf]Expect:m 100-continue[lf]Connection: Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf]",
+            "Payload": "GET /cdn-cgi/ HTTP/1.1[crlf]Host: ekr.zdassets.com[crlf][crlf]CF-RAY / HTTP/1.1[crlf]Host: f.hnetcol.online[lf]Expect:m 100-continue[lf]Connection: Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf]",
             "SNI": "",
             "TlsIP": "",
             "ProxyIP": "104.17.50.4",
@@ -119,7 +119,7 @@
         {
             "Name": "🔵⚪TIGO V2⚪🔵",
             "FLAG": "vivo",
-            "Payload": "GET /cdn-cgi/ HTTP/1.1[crlf]Host: offers.qa.bankrate.com[crlf][crlf]CF-RAY / HTTP/1.1[crlf]Host: f.cerebrocol.com[lf]Expect:m 100-continue[lf]Connection: Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf]",
+            "Payload": "GET /cdn-cgi/ HTTP/1.1[crlf]Host: offers.qa.bankrate.com[crlf][crlf]CF-RAY / HTTP/1.1[crlf]Host: f.hnetcol.online[lf]Expect:m 100-continue[lf]Connection: Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf]",
             "SNI": "",
             "TlsIP": "",
             "ProxyIP": "offers.qa.bankrate.com",
@@ -129,7 +129,7 @@
         {
             "Name": "🔵⚪TIGO V3⚪🔵",
             "FLAG": "vivo",
-            "Payload": "GET /cdn-cgi/ HTTP/1.1[crlf]Host: ayuda.tigo.com.co[crlf][crlf]CF-RAY / HTTP/1.1[crlf]Host: f.cerebrocol.com[lf]Expect:m 100-continue[lf]Connection: Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf]",
+            "Payload": "GET /cdn-cgi/ HTTP/1.1[crlf]Host: ayuda.tigo.com.co[crlf][crlf]CF-RAY / HTTP/1.1[crlf]Host: f.hnetcol.online[lf]Expect:m 100-continue[lf]Connection: Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf]",
             "SNI": "",
             "TlsIP": "",
             "ProxyIP": "104.16.18.94",
@@ -139,7 +139,7 @@
         {
             "Name": "🔵⚪TIGO V4⚪🔵",
             "FLAG": "vivo",
-            "Payload": "GET /cdn-cgi/ HTTP/1.1[crlf]Host: ayuda.tigo.com.co[crlf][crlf]CF-RAY / HTTP/1.1[crlf]Host: f.cerebrocol.com[lf]Expect:m 100-continue[lf]Connection: Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf]",
+            "Payload": "GET /cdn-cgi/ HTTP/1.1[crlf]Host: ayuda.tigo.com.co[crlf][crlf]CF-RAY / HTTP/1.1[crlf]Host: f.hnetcol.online[lf]Expect:m 100-continue[lf]Connection: Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf]",
             "SNI": "",
             "TlsIP": "",
             "ProxyIP": "tigopa.zendesk.com",
@@ -149,7 +149,7 @@
         {
             "Name": "🔵⚪TIGO V5⚪🔵",
             "FLAG": "vivo",
-            "Payload": "GET /cdn-cgi/ HTTP/1.1[crlf]Host: ayuda.tigo.com.co[crlf][crlf]CF-RAY / HTTP/1.1[crlf]Host: danger.latamvps.online[lf]Expect:m 100-continue[lf]Connection: Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf]",
+            "Payload": "GET /cdn-cgi/ HTTP/1.1[crlf]Host: ayuda.tigo.com.co[crlf][crlf]CF-RAY / HTTP/1.1[crlf]Host: f.hnetcol.online[lf]Expect:m 100-continue[lf]Connection: Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf]",
             "SNI": "",
             "TlsIP": "",
             "ProxyIP": "104.17.50.4",
