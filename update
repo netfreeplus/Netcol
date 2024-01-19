@@ -1,6 +1,6 @@
 {
-    "Version": "1.0.0",
-    "ReleaseNotes": "¡Nueva actualización disponible!🧩 \nESTÁ PROHIBIDO EL INICIO DE SESIÓN MÚLTIPLE. \n MANTÉN LA APLICACIÓN SIEMPRE ACTUALIZADA 🏆\nusted está conectado y no le funciona correctamente, comuníquese con servicio técnico. ⚙️\n 😎¡DISFRUTA!😎",
+    "Version": "1.0.2",
+    "ReleaseNotes": "¡Nueva actualización disponible!🧩 \nNOVEDADES: Claro Waze, Claro sin saldo Ban, Movistar Whatsapp.\nESTÁ PROHIBIDO EL INICIO DE SESIÓN MÚLTIPLE. \n MANTÉN LA APLICACIÓN SIEMPRE ACTUALIZADA 🏆\nusted está conectado y no le funciona correctamente, comuníquese con servicio técnico. ⚙️\n 😎¡DISFRUTA!😎",
     "Sms": "https://raw.githubusercontent.com/netfreeplus/Netcol/main/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/netfreeplus/Netcol/main/update",
     "EmailFeedback": "",
@@ -37,7 +37,7 @@
       "Info": "Ssl"
    },
     {
-      "Name":  "⚠️VERSIÓN 1.0.1⚠️",
+      "Name":  "⚠️VERSIÓN 1.0.2⚠️",
       "FLAG": "",
       "Payload": "",
       "SNI": "",
