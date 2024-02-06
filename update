@@ -1,6 +1,6 @@
 {
     "Version": "1.0.9",
-    "ReleaseNotes": "¡Nueva actualización disponible!🧩\n✅1.0.8 \n\n🔥Novedades🔥\n\n 🔴Claro Waze 2 versiones\n🔴Claro Twitter\n🟠Etb Instagram\n⚪FLASHMOBILE Telegram\n🔵Movistar WhatsApp\n🔵Movistar Bug\n🔵⚪Tigo V1, V2, V3, V4, V5\n🟢Virgin Redes\n🟣Wom Spotify\n\nMANTÉN LA APLICACIÓN SIEMPRE ACTUALIZADA PARA DISFRUTAR DE LOS PRÓXIMOS SERVICIOS 🏆\nSi usted está conectado y no le funciona correctamente, comuníquese con vendedor. ⚙️\n 😎¡DISFRUTA!😎",
+    "ReleaseNotes": "¡Nueva actualización disponible!🧩\n✅1.0.9 \n\n🔥Novedades🔥\n\n 🔴Claro Waze 2 versiones\n🔴Claro Twitter\n🟠Etb Instagram\n⚪FLASHMOBILE Telegram\n🔵Movistar WhatsApp\n🔵Movistar Bug\n🔵⚪Tigo V1, V2, V3, V4, V5\n🟢Virgin Redes\n🟣Wom Spotify\n\nMANTÉN LA APLICACIÓN SIEMPRE ACTUALIZADA PARA DISFRUTAR DE LOS PRÓXIMOS SERVICIOS 🏆\nSi usted está conectado y no le funciona correctamente, comuníquese con vendedor. ⚙️\n 😎¡DISFRUTA!😎",
     "Sms": "https://raw.githubusercontent.com/netfreeplus/Netcol/main/sms",
     "UrlUpdate": "https://raw.githubusercontent.com/netfreeplus/Netcol/main/update",
     "EmailFeedback": "",
@@ -37,7 +37,7 @@
       "Info": "Ssl"
    },
     {
-      "Name":  "⚠️VERSIÓN 1.0.8⚠️",
+      "Name":  "⚠️VERSIÓN 1.0.9⚠️",
       "FLAG": "",
       "Payload": "",
       "SNI": "",
