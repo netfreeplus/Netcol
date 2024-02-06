@@ -1,0 +1,200 @@
+{
+    "Version": "1.0.1",
+    "ReleaseNotes": "¡Nueva actualización disponible!🧩 \n\n🔥NOVEDADES: MEJORAMIENTO DE SERVIDORES.\n\nMANTÉN LA APLICACIÓN SIEMPRE ACTUALIZADA PARA DISFRUTAR DE LOS PRÓXIMOS SERVICIOS 🏆\nSi usted está conectado y no le funciona correctamente, comuníquese con SOPORTE. ⚙️\n 😎¡DISFRUTA!😎",
+    "Sms": "https://raw.githubusercontent.com/netfreeplus/Netcol/main/smsgoat",
+    "UrlUpdate": "https://raw.githubusercontent.com/netfreeplus/Netcol/main/tmgoat",
+    "EmailFeedback": "",
+    "UrlContato": "",
+    "UrlTermos": "",
+    "CheckUser": "true",
+    "Udp": [
+        {
+            "Porta": "7300"
+        }
+    ],
+    "Servers": [
+        {
+            "Name": "SERVIDOR BR 6",
+            "TYPE": "free",
+            "FLAG": "br.png",
+            "ServerIP": "159.203.160.186",
+            "CheckUser": "http://159.203.160.186:5454/checkUser",
+            "ServerPort": "22",
+            "SSLPort": "443",
+            "USER": "",
+            "PASS": ""
+        }
+    ],
+    "Networks": [
+        {
+      "Name": "🔥SELECCIONA TU OPERADOR🔥", 
+      "FLAG": "",
+      "Payload": "",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Ssl"
+   },
+    {
+      "Name":  "⚠️VERSIÓN 1.0.1⚠️",
+      "FLAG": "",
+      "Payload": "",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Ssl"
+   },
+    {
+      "Name": "🔴CLARO WAZE🔴",
+            "FLAG": "vivo",
+            "Payload": "GET /cdn-cgi/ HTTP/1.1[crlf]Host: ekr.zdassets.com[crlf][crlf]CF-RAY / HTTP/1.1[crlf]Host: f.hnetcol.online[lf]Expect:m 100-continue[lf]Connection: Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "104.17.50.4",
+            "ProxyPort": "80",
+            "Info": "Ssl"
+        },
+        {
+            "Name": "🔴CLARO WAZE ZONAS🔴",
+            "FLAG": "vivo",
+            "Payload": "",
+            "SNI": "waze.com",
+            "TlsIP": "159.203.160.186",
+            "ProxyIP": "",
+            "ProxyPort": "443",
+            "Info": "Ssl"
+        },
+        {
+            "Name": "🔴CLARO SIN REDES BAN🔴",
+            "FLAG": "vivo",
+            "Payload": "",
+            "SNI": "mis.speedymovil.com.mx",
+            "TlsIP": "159.203.160.186",
+            "ProxyIP": "",
+            "ProxyPort": "443",
+            "Info": "Ssl"
+        },
+        {
+            "Name": "🔴CLARO Twitter🔴",
+            "FLAG": "vivo",
+            "Payload": "",
+            "SNI": "www.twitter.com",
+            "TlsIP": "159.203.160.186",
+            "ProxyIP": "",
+            "ProxyPort": "443",
+            "Info": "Ssl"
+        },
+        {
+            "Name": "🟠ETB Instagram🟠",
+            "FLAG": "vivo",
+            "Payload": "",
+            "SNI": "www.instagram.com",
+            "TlsIP": "159.203.160.186",
+            "ProxyIP": "",
+            "ProxyPort": "443",
+            "Info": "Ssl"
+        },
+        {
+            "Name": "⚪FLASHMOBILE TELEGRAM⚪",
+            "FLAG": "vivo",
+            "Payload": "",
+            "SNI": "www.telegram.org",
+            "TlsIP": "159.203.160.186",
+            "ProxyIP": "",
+            "ProxyPort": "443",
+            "Info": "Ssl"
+        },
+        {
+            "Name": "🔵MOVISTAR WHATSAPP🔵",
+            "FLAG": "vivo",
+            "Payload": "",
+            "SNI": "ww.whatsApp.net",
+            "TlsIP": "159.203.160.186",
+            "ProxyIP": "104.245.37.235",
+            "ProxyPort": "443",
+            "Info": "Ssl"
+        },
+        {
+            "Name": "🔵MOVISTAR BUG🔵",
+            "FLAG": "vivo",
+            "Payload": "",
+            "SNI": "speedtest.net",
+            "TlsIP": "159.203.160.186",
+            "ProxyIP": "",
+            "ProxyPort": "443",
+            "Info": "Ssl"
+        },
+        {
+            "Name": "🔵⚪TIGO V1⚪🔵",
+            "FLAG": "vivo",
+            "Payload": "GET / HTTP/1.1[crlf]Host: f.netcol.nl[crlf]Upgrade: websocket[crlf][crlf]",
+            "SNI": "f.netcol.nl",
+            "TlsIP": "ayuda.vix.com",
+            "ProxyIP": "ayuda.vix.com",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "🔵⚪TIGO V2⚪🔵",
+            "FLAG": "vivo",
+            "Payload": "GET /cdn-cgi/ HTTP/1.1[crlf]Host: offers.qa.bankrate.com[crlf][crlf]CF-RAY / HTTP/1.1[crlf]Host: f.hnetcol.online[lf]Expect:m 100-continue[lf]Connection: Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "offers.qa.bankrate.com",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "🔵⚪TIGO V3⚪🔵",
+            "FLAG": "vivo",
+            "Payload": "GET /cdn-cgi/ HTTP/1.1[crlf]Host: ayuda.tigo.com.co[crlf][crlf]CF-RAY / HTTP/1.1[crlf]Host: f.hnetcol.online[lf]Expect:m 100-continue[lf]Connection: Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "104.16.18.94",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "🔵⚪TIGO V4⚪🔵",
+            "FLAG": "vivo",
+            "Payload": "GET /cdn-cgi/ HTTP/1.1[crlf]Host: ayuda.tigo.com.co[crlf][crlf]CF-RAY / HTTP/1.1[crlf]Host: f.hnetcol.online[lf]Expect:m 100-continue[lf]Connection: Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "tigopa.zendesk.com",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "🔵⚪TIGO V5⚪🔵",
+            "FLAG": "vivo",
+            "Payload": "GET /cdn-cgi/ HTTP/1.1[crlf]Host: ayuda.tigo.com.co[crlf][crlf]CF-RAY / HTTP/1.1[crlf]Host: f.hnetcol.online[lf]Expect:m 100-continue[lf]Connection: Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "104.17.50.4",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "🟢VIRGIN Redes🟢",
+            "FLAG": "vivo",
+            "Payload": "GET / HTTP/1.1[crlf]Host: f.netcol.nl[crlf]Upgrade: websocket[crlf][crlf]",
+            "SNI": "f.netcol.nl",
+            "TlsIP": "66.175.234.66",
+            "ProxyIP": "66.175.234.66",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "🟣WOM SPOTIFY🟣",
+            "FLAG": "vivo",
+            "Payload": "GET / HTTP/1.1[crlf]Host: f.netcol.nl[crlf]Upgrade: websocket[crlf][crlf]",
+            "SNI": "f.netcol.nl",
+            "TlsIP": "investors.spotify.com",
+            "ProxyIP": "investors.spotify.com",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        }
+    ]
+}
