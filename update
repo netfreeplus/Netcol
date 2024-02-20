@@ -1,12 +1,12 @@
-{
-    "Version": "1.0.11",
-    "ReleaseNotes": "¡Nueva actualización disponible!🧩\n\n🔥Novedades: Mejoramiento de Servidores\n\nMANTÉN LA APLICACIÓN SIEMPRE ACTUALIZADA PARA DISFRUTAR DE LOS PRÓXIMOS SERVICIOS 🏆\nSi usted está conectado y no le funciona correctamente, comuníquese con soporte. ⚙️\n 😎¡DISFRUTA!😎",
-    "Sms": "https://raw.githubusercontent.com/netfreeplus/Netcol/main/sms",
-    "UrlUpdate": "https://raw.githubusercontent.com/netfreeplus/Netcol/main/update",
-    "EmailFeedback": "",
-    "UrlContato": "",
-    "UrlTermos": "",
-    "CheckUser": "true",
+{ "Version": 2, "NETCOL": false, "ReleaseNotes": false, 
+"UrlUpdate": "https://raw.githubusercontent.com/netfreeplus/Netcol/main/update", 
+"Sms": "https://raw.githubusercontent.com/netfreeplus/Netcol/main/sms", 
+"logoonline": "https://i.ibb.co/FhpPNyC/DT4nbr65nz.png", "fundoonline": "https://i.ibb.co/SP84js0/DTj23-tyad.jpg", 
+"fundoDoLogOnline": false, 
+"EmailFeedback": "", 
+"UrlContato": "7", 
+"UrlTermos": "", 
+"CheckUser": "true",
     "Udp": [
         {
             "Porta": "7300"
@@ -14,11 +14,11 @@
     ],
     "Servers": [
         {
-            "Name": "SERVIDOR BR 6",
+            "Name": "SERVIDOR VIP⚡",
             "TYPE": "free",
-            "FLAG": "br.png",
-            "ServerIP": "164.90.128.228",
-            "CheckUser": "http://164.90.128.228:5454/checkUser",
+            "FLAG": "pro.png",
+            "ServerIP": "159.203.160.186",
+            "CheckUser": "http://159.203.160.186:5454/checkUser",
             "ServerPort": "22",
             "SSLPort": "443",
             "USER": "",
@@ -36,18 +36,18 @@
       "ProxyPort": "",
       "Info": "Ssl"
    },
-    {
-      "Name":  "⚠️VERSIÓN 1.0.11⚠️",
-      "FLAG": "",
-      "Payload": "",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Ssl"
-   },
-    {
-      "Name": "🔴CLARO WAZE🔴",
+     {
+      "Name": "TODO INCLUIDO",
+            "FLAG": "vivo",
+            "Payload": "GET / HTTP/1.1[crlf]Host: mobile1.twimg.com[crlf][crlf]GET / HTTP/1.1[crlf]Host: d333qzgvtqvzil.cloudfront.net[crlf]Connection: upgrade[crlf]Upgrade: websocket[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "mobile1.twimg.com",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+      "Name": "CLARO WAZE",
             "FLAG": "vivo",
             "Payload": "GET /cdn-cgi/ HTTP/1.1[crlf]Host: ekr.zdassets.com[crlf][crlf]CF-RAY / HTTP/1.1[crlf]Host: f.hnetcol.online[lf]Expect:m 100-continue[lf]Connection: Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf]",
             "SNI": "",
@@ -57,21 +57,21 @@
             "Info": "Proxy"
         },
         {
-            "Name": "🔴CLARO WAZE ZONAS🔴",
+            "Name": "CLARO WAZE ZONAS",
             "FLAG": "vivo",
             "Payload": "",
             "SNI": "waze.com",
-            "TlsIP": "164.90.128.228",
+            "TlsIP": "159.203.160.186",
             "ProxyIP": "",
             "ProxyPort": "443",
             "Info": "Ssl"
         },
         {
-            "Name": "🔴CLARO SIN REDES BAN🔴",
+            "Name": "CLARO SIN REDES BAN",
             "FLAG": "vivo",
             "Payload": "",
             "SNI": "mis.speedymovil.com.mx",
-            "TlsIP": "164.90.128.228",
+            "TlsIP": "159.203.160.186",
             "ProxyIP": "",
             "ProxyPort": "443",
             "Info": "Ssl"
@@ -81,7 +81,7 @@
             "FLAG": "vivo",
             "Payload": "",
             "SNI": "www.twitter.com",
-            "TlsIP": "164.90.128.228",
+            "TlsIP": "159.203.160.186",
             "ProxyIP": "",
             "ProxyPort": "443",
             "Info": "Ssl"
@@ -91,7 +91,7 @@
             "FLAG": "vivo",
             "Payload": "",
             "SNI": "www.instagram.com",
-            "TlsIP": "164.90.128.228",
+            "TlsIP": "159.203.160.186",
             "ProxyIP": "",
             "ProxyPort": "443",
             "Info": "Ssl"
@@ -101,7 +101,7 @@
             "FLAG": "vivo",
             "Payload": "",
             "SNI": "www.telegram.org",
-            "TlsIP": "164.90.128.228",
+            "TlsIP": "159.203.160.186",
             "ProxyIP": "",
             "ProxyPort": "443",
             "Info": "Ssl"
@@ -111,8 +111,8 @@
             "FLAG": "vivo",
             "Payload": "",
             "SNI": "ww.whatsApp.net",
-            "TlsIP": "164.90.128.228",
-            "ProxyIP": "164.90.128.228",
+            "TlsIP": "159.203.160.186",
+            "ProxyIP": "104.245.37.235",
             "ProxyPort": "443",
             "Info": "Ssl"
         },
@@ -121,7 +121,7 @@
             "FLAG": "vivo",
             "Payload": "",
             "SNI": "speedtest.net",
-            "TlsIP": "164.90.128.228",
+            "TlsIP": "159.203.160.186",
             "ProxyIP": "",
             "ProxyPort": "443",
             "Info": "Ssl"
