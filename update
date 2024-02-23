@@ -1,8 +1,8 @@
-{ "Version": 3, "NETCOL": false, "ReleaseNotes": false, 
+{ "Version": 4, "NETCOL": false, "ReleaseNotes": false, 
 "UrlUpdate": "https://raw.githubusercontent.com/netfreeplus/Netcol/main/update", 
 "Sms": "https://raw.githubusercontent.com/netfreeplus/Netcol/main/sms", 
 "logoonline": "https://i.ibb.co/FhpPNyC/DT4nbr65nz.png", "fundoonline": "https://i.ibb.co/SP84js0/DTj23-tyad.jpg", 
-"fundoDoLogOnline": false, 
+"fundoDoLogOnline": "https://i.ibb.co/FhpPNyC/DT4nbr65nz.png", 
 "EmailFeedback": "", 
 "UrlContato": "7", 
 "UrlTermos": "", 
@@ -38,7 +38,7 @@
     ],
     "Networks": [
         {
-      "Name": "🔥SELECCIONA TU OPERADOR🔥", 
+      "Name": "SELECCIONA TU OPERADOR", 
       "FLAG": "",
       "Payload": "",
       "SNI": "",
@@ -169,7 +169,7 @@
         },
         {
       "Name": "TODO INCLUIDO",
-            "FLAG": "vivo",
+            "FLAG": "tim",
             "Payload": "GET / HTTP/1.1[crlf]Host: mobile1.twimg.com[crlf][crlf]GET / HTTP/1.1[crlf]Host: d333qzgvtqvzil.cloudfront.net[crlf]Connection: upgrade[crlf]Upgrade: websocket[crlf][crlf]",
             "SNI": "",
             "TlsIP": "",
@@ -179,7 +179,7 @@
         },
         {
       "Name": "CLARO WAZE",
-            "FLAG": "vivo",
+            "FLAG": "tim",
             "Payload": "GET /cdn-cgi/ HTTP/1.1[crlf]Host: ekr.zdassets.com[crlf][crlf]CF-RAY / HTTP/1.1[crlf]Host: free.hnetcol.online[lf]Expect:m 100-continue[lf]Connection: Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf]",
             "SNI": "",
             "TlsIP": "",
@@ -189,7 +189,7 @@
         },
         {
             "Name": "CLARO WAZE ZONAS",
-            "FLAG": "vivo",
+            "FLAG": "tim",
             "Payload": "",
             "SNI": "waze.com",
             "TlsIP": "164.90.128.228",
@@ -199,7 +199,7 @@
         },
         {
             "Name": "CLARO SIN REDES BAN",
-            "FLAG": "vivo",
+            "FLAG": "tim",
             "Payload": "",
             "SNI": "mis.speedymovil.com.mx",
             "TlsIP": "164.90.128.228",
@@ -209,7 +209,7 @@
         },
         {
             "Name": "CLARO Twitter",
-            "FLAG": "vivo",
+            "FLAG": "tim",
             "Payload": "",
             "SNI": "www.twitter.com",
             "TlsIP": "164.90.128.228",
@@ -219,7 +219,7 @@
         },
         {
             "Name": "ETB Instagram",
-            "FLAG": "vivo",
+            "FLAG": "tim",
             "Payload": "",
             "SNI": "www.instagram.com",
             "TlsIP": "164.90.128.228",
@@ -229,7 +229,7 @@
         },
         {
             "Name": "FLASHMOBILE TELEGRAM",
-            "FLAG": "vivo",
+            "FLAG": "tim",
             "Payload": "",
             "SNI": "www.telegram.org",
             "TlsIP": "164.90.128.228",
@@ -239,7 +239,7 @@
         },
         {
             "Name": "MOVISTAR WHATSAPP",
-            "FLAG": "vivo",
+            "FLAG": "tim",
             "Payload": "",
             "SNI": "ww.whatsApp.net",
             "TlsIP": "164.90.128.228",
@@ -249,7 +249,7 @@
         },
         {
             "Name": "MOVISTAR BUG",
-            "FLAG": "vivo",
+            "FLAG": "tim",
             "Payload": "",
             "SNI": "speedtest.net",
             "TlsIP": "164.90.128.228",
@@ -259,7 +259,7 @@
         },
         {
             "Name": "VIRGIN Redes",
-            "FLAG": "vivo",
+            "FLAG": "tim",
             "Payload": "GET / HTTP/1.1[crlf]Host: free.netcol.nl[crlf]Upgrade: websocket[crlf][crlf]",
             "SNI": "free.netcol.nl",
             "TlsIP": "66.175.234.66",
@@ -269,7 +269,7 @@
         },
         {
             "Name": "WOM SPOTIFY",
-            "FLAG": "vivo",
+            "FLAG": "tim",
             "Payload": "GET / HTTP/1.1[crlf]Host: free.netcol.nl[crlf]Upgrade: websocket[crlf][crlf]",
             "SNI": "free.netcol.nl",
             "TlsIP": "investors.spotify.com",
