@@ -76,7 +76,7 @@ echo -e "$bar1"
 #FUNCION DE CREACION DE USUARIOS
 crear () {
     clear
-    TITLE="${blanco}Onlycode ${verdeR}VPN"
+    TITLE="${blanco}SERVICIOS ${verdeR}VPN"
 echo -e "$TITLE"
 echo -e ""
 echo -e " AUTORIZAR TOKEN ID"
@@ -112,11 +112,9 @@ Expire_On=$(($Today + $Days_Detailed))
 Expiration=$(date -u --date="1970-01-01 $Expire_On sec GMT" +%Y/%m/%d)
 Expiration_Display=$(date -u --date="1970-01-01 $Expire_On sec GMT" '+%d %b %Y')
 opensshport="$(netstat -ntlp | grep -i ssh | grep -i 0.0.0.0 | awk '{print $4}' | cut -d: -f2 | xargs | sed -e 's/ /, /g' )"
-dropbearport="$(netstat -nlpt | grep -i dropbear | grep -i 0.0.0.0 | awk '{print $4}' | cut -d: -f2 | xargs | sed -e 's/ /, /g')"
+dropbearport="$(netstat -nlpt | grep -i python | grep -i 0.0.0.0 | awk '{print $4}' | cut -d: -f2 | xargs | sed -e 's/ /, /g')"
 stunnel4port="$(netstat -nlpt | grep -i stunnel4 | grep -i 0.0.0.0 | awk '{print $4}' | cut -d: -f2 | xargs | sed -e 's/ /, /g')"
-openvpnport="$(netstat -nlpt | grep -i openvpn | grep -i 0.0.0.0 | awk '{print $4}' | cut -d: -f2 | xargs | sed -e 's/ /, /g')"
-pyport="$(netstat -nlpt | grep -i python | grep -i 0.0.0.0 | awk '{print $4}' | cut -d: -f2 | xargs | sed -e 's/ /, /g')"
-squidport="$(cat /etc/squid/squid.conf | grep -i http_port | awk '{print $2}' | xargs | sed -e 's/ /, /g')"
+BADVPN="$(netstat -nlpt | grep -i badvpn-ud | grep -i 0.0.0.0 | awk '{print $4}' | cut -d: -f2 | xargs | sed -e 's/ /, /g')"
 useradd -m -s /bin/false -e $Expiration $token > /dev/null
 egrep "^$token" /etc/passwd &> /dev/null
 DIA=`date +"%d/%m/%Y"`
@@ -136,11 +134,9 @@ echo -e ""
 echo -e "$bar1"
 echo -e "\e[32m  Host/IP: \e[0m"$IPADDR
 echo -e "\e[32m  Perto OpenSSH: \e[0m"$opensshport
-echo -e "\e[32m  Puerto Dropbear: \e[0m"$dropbearport
+echo -e "\e[32m  Puerto Python: \e[0m"$python
 echo -e "\e[32m  Puerto SSL: \e[0m"$stunnel4port
-echo -e "\e[32m  Puertos Squid: \e[0m"$squidport
-echo -e "\e[32m  Puertos Openvpn: \e[0m"$openvpnport
-echo -e "\e[32m  Puertos python: \e[0m"$openvpnport
+echo -e "\e[32m  Puertos BADVPN: \e[0m"$badvpn-ud
 echo -e "$bar1"
 fi
 }
@@ -369,7 +365,7 @@ No_token="$(cat /etc/token/BD | wc -l)"
 #MENU DE USUARIOS
 menu () {
   clear
-echo -e "${melon}               == Token Auth == (${amarillo}onlycode${cierre}${melon})
+echo -e "${melon}               == Token Auth == (${amarillo}NETCOL-VIP${cierre}${melon})
 ${bar1}
 ${morado}TOTAL DE REGISTROS: ${rojo}>${cierre} ${azul}ID: ${blanco}$No_token  ${cierre}
 ${bar3}
